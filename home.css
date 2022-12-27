@@ -130,3 +130,36 @@ footer .madeby{
 footer .yearby{
   padding-right: 20px;
 }
+
+/* yourMovies.html CSS CODE  */
+
+.movie-time-selection{
+  padding: 3px 15px;
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.movie-block-list td .pre,
+.movie-block-list td .next{
+  background-color: #363636;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 3px 6px;
+}
+
+button.remove{
+  width: 100%;
+  padding: 12px 5px;
+  color: #fff;
+  background-color: #C93333;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+}
