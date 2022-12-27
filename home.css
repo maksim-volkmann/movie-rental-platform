@@ -5,3 +5,43 @@ body{
   margin: auto;
   border: 1px solid red;
 }
+
+h1{
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+  font-size: 25px;
+}
+
+nav ul{
+  display: flex;
+  background-color: #363636;
+  /* padding: 20px; */
+  border-radius: 25px;
+}
+
+nav ul li{
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 5px;
+  display: block;
+}
+
+#home{
+  font-weight: bold;
+}
+
+#home,
+#profile{
+  text-transform: capitalize;
+}
+
+#movies:first-letter{
+  text-transform: uppercase;
+}
+
