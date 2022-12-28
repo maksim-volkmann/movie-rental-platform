@@ -163,3 +163,43 @@ button.remove{
   cursor: pointer;
   border: none;
 }
+
+.profile{
+  width: 410px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.profile-box{
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.profile-image-box img{
+  width: 150px;
+}
+
+.profile-information p{
+  margin: 7px 0;
+}
+
+.button-box{
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.reset-password,
+.reset-email{
+  color: #fff;
+  background-color: #363636;
+  border-radius: 50px;
+  padding: 5px 15px;
+  min-width: 130px;
+}
