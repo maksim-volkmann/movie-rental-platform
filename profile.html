@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="home.css">
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <script src="profile.js" defer></script>
   <title>Movie Rental Platform</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
       <ul>
         <li><a id="home" href="home.html">home</a></li>
         <li><a id="movies" href="yourmovies.html">your movies</a></li>
-        <li><a id="profile" href="/">profile</a></li>
+        <li><a id="profile" href="/profile.html">profile</a></li>
       </ul>
     </nav>
     <section class="main-section">
@@ -26,13 +27,14 @@
             <img src="img/profile-picture.png" alt="profile image">
           </div>
           <div class="profile-information">
-            <p><strong>Name: </strong>John</p>
-            <p><strong>Surname: </strong>Newman</p>
-            <p><strong>Email: </strong>john.newman@mail.com</p>
+            <p><strong>Name: </strong><span class="username"></span></p>
+            <p><strong>Surname: </strong><span class="surname"></span></p>
+            <p><strong>Email: </strong><span class="user-email"></span></p>
           </div>
         </div>
         <div class="button-box">
-          <button class="reset-password">Reset password</button><button class="reset-email">Reset email</button>
+          <button class="reset-password">Reset password</button>
+          <button class="reset-email">Reset email</button>
         </div>
       </div>
     </section>

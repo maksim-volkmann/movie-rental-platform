@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="home.css">
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <script src="movies.js" defer></script>
   <title>Movie Rental Platform</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
     <h1>Movie rental</h1>
     <nav>
       <ul>
-        <li><a id="home" href="/">home</a></li>
+        <li><a id="home" href="/home.html">home</a></li>
         <li><a id="movies" href="yourmovies.html">your movies</a></li>
         <li><a id="profile" href="profile.html">profile</a></li>
       </ul>
@@ -21,41 +22,43 @@
     <section class="main-section">
       <h2>Available Movies</h2>
       <table>
-        <tr>
-          <th>Name</th>
-          <th>Genre</th>
-          <th>Price for 12h</th>
-          <th>Is in Stock</th>
-          <th></th>
-        </tr>
-        <tr class="movie-block-list">
-          <td>Batman</td>
-          <td>Action</td>
-          <td>4.55$</td>
-          <td><img class="availability" src="img/check.png" alt="check"></td>
-          <td class="movie-button-box"><button class="rent">Rent</button></td>
-        </tr>
-        <tr class="movie-block-list">
-          <td>Batman</td>
-          <td>Action</td>
-          <td>4.55$</td>
-          <td><img class="availability" src="img/check.png" alt="check"></td>
-          <td class="movie-button-box"><button class="rent">Rent</button></td>
-        </tr>
-        <tr class="movie-block-list">
-          <td>Batman</td>
-          <td>Action</td>
-          <td>4.55$</td>
-          <td><img class="availability" src="img/check.png" alt="check"></td>
-          <td class="movie-button-box"><button class="rent">Rent</button></td>
-        </tr>
-        <tr class="movie-block-list">
-          <td>Batman</td>
-          <td>Action</td>
-          <td>4.55$</td>
-          <td><img class="availability" src="img/cross.png" alt="check"></td>
-          <td class="movie-button-box"><button class="rent">Rent</button></td>
-        </tr>
+        <tbody id="table-body">
+          <tr id="main-tr">
+            <th>Name</th>
+            <th>Genre</th>
+            <th>Price for 12h</th>
+            <th>Is in Stock</th>
+            <th></th>
+          </tr>
+          <!-- <tr class="movie-block-list">
+            <td>Batman</td>
+            <td>Action</td>
+            <td>4.55$</td>
+            <td><img class="availability" src="img/check.png" alt="check"></td>
+            <td class="movie-button-box"><button class="rent">Rent</button></td>
+          </tr>
+          <tr class="movie-block-list">
+            <td>Batman</td>
+            <td>Action</td>
+            <td>4.55$</td>
+            <td><img class="availability" src="img/check.png" alt="check"></td>
+            <td class="movie-button-box"><button class="rent">Rent</button></td>
+          </tr>
+          <tr class="movie-block-list">
+            <td>Batman</td>
+            <td>Action</td>
+            <td>4.55$</td>
+            <td><img class="availability" src="img/check.png" alt="check"></td>
+            <td class="movie-button-box"><button class="rent">Rent</button></td>
+          </tr>
+          <tr class="movie-block-list">
+            <td>Batman</td>
+            <td>Action</td>
+            <td>4.55$</td>
+            <td><img class="availability" src="img/cross.png" alt="check"></td>
+            <td class="movie-button-box"><button class="rent">Rent</button></td>
+          </tr> -->
+      </tbody>
       </table>
     </section>
   </main>
